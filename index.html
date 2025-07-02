@@ -8,8 +8,28 @@ background-image:fixed;
 background-size:cover;
 }
 </head>
-   <footer>
-                    <div id="cr-widget-marquee"
+ <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #FF9900;
+   color: white;
+   text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Fixed/Sticky Footer Example</h2>
+<p>The footer is placed at the bottom of the page.</p>
+
+<div class="footer">
+  <p>                    <div id="cr-widget-marquee"
         data-coins="bitcoin,ethereum,tether,ripple,cardano"
         data-theme="light"
         data-show-symbol="true"
@@ -20,5 +40,8 @@ background-size:cover;
       >
         <a href="https://cryptorank.io"></a>
         <script src="https://cryptorank.io/widget/marquee.js"></script>
-      </div>
-</footer> 
+      </div></p>
+</div>
+
+</body>
+</html> 
